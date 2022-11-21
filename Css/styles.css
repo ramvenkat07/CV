@@ -12,9 +12,47 @@ hr
 }
 h1
 {
-    padding-left: 10%;
+    font-size: 65px;
     color: #8EC3B0;
 }
 h3{
      color: #8EC3B0;
+}
+
+/***************************CLASS SELECTORS*************************/
+.Heading
+{
+    font-size: 20px;
+background-color: rgb(199, 230, 230);
+}
+
+/***************************pseudo class*************************/
+.Heading:hover
+{
+    background-color: #8EC3B0;
+}
+
+/***************************Sub class selectors*************************/
+
+.School
+{
+    color: rgb(20, 139, 139);
+}
+.Inter
+{
+    color: rgb(32, 82, 73);
+}
+.Graduate
+{
+    color: cadetblue;
+}
+/***************************ID SELECTORS( we can't use same id for multiple places where we can use same calss for multiple places)*************************/
+#Role
+{
+    color: #7cc6d3;
+}
+
+#RamImage
+{
+    border-radius: 50%;
 }
